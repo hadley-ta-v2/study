@@ -1,1 +1,110 @@
-<h1>Kubernetes Study</h1>
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Kubernetes Study Library</title>
+
+<style>
+body{
+    margin:0;
+    background:#0d1117;
+    color:#f0f6fc;
+    font-family:Arial,sans-serif;
+}
+
+.wrap{
+    max-width:1000px;
+    margin:auto;
+    padding:50px 20px;
+}
+
+a.back{
+    color:#58a6ff;
+    text-decoration:none;
+}
+
+h1{
+    font-size:38px;
+    margin-bottom:5px;
+}
+
+.subtitle{
+    color:#8b949e;
+    margin-bottom:35px;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:20px;
+}
+
+.card{
+    display:block;
+    background:#161b22;
+    border:1px solid #30363d;
+    border-radius:14px;
+    padding:25px;
+    color:white;
+    text-decoration:none;
+}
+
+.card:hover{
+    border-color:#2f81f7;
+    transform:translateY(-3px);
+}
+
+.icon{
+    font-size:34px;
+}
+
+.card h2{
+    margin:12px 0 8px;
+}
+
+.card p{
+    color:#8b949e;
+    line-height:1.5;
+}
+</style>
+</head>
+
+<body>
+
+<div class="wrap">
+
+<a class="back" href="../">← Back to Study Portal</a>
+
+<h1>☸️ Kubernetes Study</h1>
+
+<div class="subtitle">
+Kubernetes architecture, administration and Azure AKS study material
+</div>
+
+<div class="grid">
+
+<a class="card" href="Kubernetes-Guide-v1.pdf">
+    <div class="icon">📘</div>
+    <h2>Kubernetes Complete Guide</h2>
+    <p>
+    Architecture, control plane, worker nodes,
+    Pods, networking, storage, YAML and kubectl.
+    </p>
+</a>
+
+<a class="card" href="Kubernetes-on-Azure-Solution-Architect.pdf">
+    <div class="icon">☁️</div>
+    <h2>Kubernetes on Azure</h2>
+    <p>
+    AKS architecture, production design,
+    CI/CD, Helm, monitoring and Azure integration.
+    </p>
+</a>
+
+</div>
+
+</div>
+
+</body>
+</html>
